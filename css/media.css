@@ -1,0 +1,269 @@
+@media(max-width: 1280px){
+    .logo{
+        margin-left: 20px;
+    }
+    .menu{
+        margin-right: 20px;
+    }
+    .about-text {
+        padding: 100px 150px;
+    }
+}
+@media(max-width: 1180px){
+    .attainement__items {
+        margin-left: 60px;
+    }
+    .attainement__items .attainement__item {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer__inner {
+        padding-left: 25px;
+    }
+    .footer__inner .footer__column {
+        margin-right: 150px;
+    }
+    .footer__inner .footer__column-tel {
+        margin-right: 80px;
+    }
+    .footer__inner .footer__column-social {
+        margin-left: 0px;
+    }
+}
+@media(max-width: 980px){
+    .about-text {
+        padding: 100px 25px;
+    }
+    .skills__content .skills__content-box .skills__inner-box {
+        padding: 65px 40px 65px 55px;
+    }
+    .attainement__items {
+        margin-left: 15px;
+    }
+    .work__more a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .video__content {
+        height: 400px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .video__text {
+        text-align: center;
+        padding: 35px 100px 30px;
+    }
+    .slider__item {
+        padding: 50px 50px;
+    }
+    .partners__items {
+        padding-bottom: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .partner__item {
+        padding-bottom: 40px;
+    }
+    .form__inner .form__inner-comment {
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    .form__inner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .form__inner .form__inner-text {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .form__inner .form__inner-text h2 {
+        line-height: 42px;
+    }
+    .footer__inner .footer__column-tel {
+        margin-right: 30px;
+    }
+    .footer__inner .footer__column {
+        margin-right: 30px;
+    }
+}
+@media(max-width: 768px){
+    .menu .menu__btn{
+        display: block;
+    }
+    .menu__list{
+        display: none;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 250px;
+        position: absolute;
+        border-top: 2px solid #10c9c3;
+    }
+    .menu__list li{
+        border-bottom: 2px solid #000;
+        background-color: #10c9c3;
+        margin-left: 0;
+    }  
+    .skills__content .skills__content-box .skills__inner-box {
+        padding: 40px 20px 35px 30px;
+    }
+    .attainment__content {
+        max-height: 100%;
+    }
+    .attainement__items .attainement__item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .attainement__items {
+        margin-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .slider .top-slider__inner {
+        padding-bottom: 40px;
+    }
+    .form__inner .form__inner-comment {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .form__inner .form__inner-text {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+    .footer__inner .footer__column {
+    margin-bottom: 30px;
+}
+    
+}
+@media(max-width: 590px){
+    .attainement__items .attainement__item {
+        width: 215px;
+    }
+    .video__content {
+        height: 300px;
+    }
+    .slider .top-slider__inner {
+        padding-bottom: 40px;
+    }
+    .slider__item p {
+        font-size: 18px;
+    }
+    .slider__item h5 {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 550px){
+    .header-bottom{
+          margin-left: 25px;
+    }
+    .header-bottom h1{
+          margin-left: 25px;
+          text-align: center;
+    }
+    .about-text {
+        padding: 50px 25px;
+    }
+    .work__more a {
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .video__text {
+        padding: 0px 30px 10px;
+    }
+    .video__text h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+  
+}
+@media(max-width: 480px){
+    .header-bottom h1 {
+        font-size: 30px;
+    }
+    .skills__content {
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    .skills__content .skills__content-box {
+        width: 100%;
+    }
+    .skills__content .skills__images-box {
+        width: 100%;
+    }
+    .skills__content .skills__content-box .skills__inner-box {
+        padding: 50px 35px;
+    }
+    .skills__content .skills__content-box .skills__inner-box .skills__box-title {
+        text-align: center;
+    }
+    .attainement__items .attainement__item {
+        padding-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .attainement__item-text::before {
+        font-size: 32px;
+    }
+    .attainement__items .attainement__item .attainement__item-text h5 {
+        font-size: 12px;
+    }
+    .attainement__items .attainement__item .attainement__item-text h6 {
+        font-size: 10px;
+    }
+    .video__content {
+        height: 200px;
+    }
+    .slider__item {
+        padding: 20px 10px 0px;
+    }
+    .partner__item {
+        padding-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .form__inner .form__inner-text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .form__inner .form__inner-comment {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .form__inner .form__inner-comment .form__inner-login input {
+        width: 100%;
+    }
+    .form__inner .form__inner-comment .form__inner-login {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer__inner .footer__column-tel {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer__inner .footer__column {
+    margin-right: 0px;
+    width: 100%;
+    }
+    .footer__inner .footer__column-more {
+        margin-right: 20px;
+    }
+    
+  
+}
+
+
+
+@media(min-width: 768px){
+    .menu__list{
+        display: flex !important;
+    }
+}
